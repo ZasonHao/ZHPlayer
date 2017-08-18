@@ -310,7 +310,7 @@
 -(UILabel *)timeLabel{
     if (!_timeLabel) {
         _timeLabel = [[UILabel alloc] init];
-        _timeLabel.frame = CGRectMake(CGRectGetMaxX(_playBtn.frame) + 5, CGRectGetMinY(_playBtn.frame), 60, 30);
+        _timeLabel.frame = CGRectMake(CGRectGetMaxX(_playBtn.frame) + 5, CGRectGetMinY(_playBtn.frame), 70, 30);
         _timeLabel.text = @"--:--/--:--";
 //        _timeLabel.adjustsFontSizeToFitWidth = YES;
         _timeLabel.font = [UIFont systemFontOfSize:10];

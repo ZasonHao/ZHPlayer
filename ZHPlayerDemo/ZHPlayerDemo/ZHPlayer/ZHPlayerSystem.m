@@ -108,7 +108,7 @@
 -(UIImageView *)brightnessImage{
     if (!_brightnessImage) {
         _brightnessImage = [[UIImageView alloc] init];
-        _brightnessImage.image = [UIImage imageNamed:@"player_play"];
+        _brightnessImage.image = [UIImage imageNamed:@"player_brightness"];
     }
     return _brightnessImage;
 }

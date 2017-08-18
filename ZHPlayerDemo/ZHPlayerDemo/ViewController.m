@@ -22,8 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    NSString *url = @"http://ipad.akamai.com/Video_Content/npr/cherryblossoms_hdv_bug/all.m3u8";
-    NSString *url = @"http://baobab.cdn.wandoujia.com/14463059939521445330477778425364388_x264.mp4";
+    //CCTV1直播
+    NSString *url = @"http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8";
+    //点播视频
+//    NSString *url = @"http://baobab.cdn.wandoujia.com/14463059939521445330477778425364388_x264.mp4";
     ZHHandleView *handle = [[ZHHandleView alloc] init];
     
     _zhplayer = [[ZHPlayer alloc] init];
