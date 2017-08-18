@@ -157,8 +157,10 @@
 
 //应用进入前台
 - (void)appDidEnterPlayground {
+    if (_didEnterBackGround) {
+        [self.videoView play];
+    }
     _didEnterBackGround = NO;
-    [self.videoView play];
 }
 
 //耳机插入、拔出事件
