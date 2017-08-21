@@ -19,4 +19,4 @@ DisplayView:    ZHplayerView类
 <br><br>
 ### 三部分各司其职，层次清晰，分工明确
 
-有任何想法和意见请不吝提出
+有任何想法和意见请不吝提出:zason_hao@aliyun.com
